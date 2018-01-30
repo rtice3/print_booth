@@ -1,0 +1,17 @@
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\bin\Debug\PrintBooth.exe.config
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\bin\Debug\PrintBooth.exe
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\bin\Debug\PrintBooth.pdb
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\obj\Debug\PrintBooth.csprojResolveAssemblyReference.cache
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\obj\Debug\PrintBooth.Form1.resources
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\obj\Debug\PrintBooth.Properties.Resources.resources
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\obj\Debug\PrintBooth.csproj.GenerateResource.Cache
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\obj\Debug\PrintBooth.exe
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\obj\Debug\PrintBooth.pdb
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\bin\Debug\Microsoft.Expression.Controls.xml
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\bin\Debug\PrintBooth.exe.manifest
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\bin\Debug\PrintBooth.application
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\obj\Debug\PrintBooth.exe.manifest
+C:\Users\rob\Documents\GitHub\PrintBooth\PrintBooth\obj\Debug\PrintBooth.application

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PrintBooth.exe" version="1.0.0.1" publicKeyToken="71958bda48337a3e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PrintBooth" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PrintBooth.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Expression.Controls.dll" size="54272">
+      <assemblyIdentity name="Microsoft.Expression.Controls" version="4.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GuFRZ53e6SZHRzyCP4Ou0aO1ApgmF9hovtaPBfP2w3Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Expression.Drawing.dll" size="122880">
+      <assemblyIdentity name="Microsoft.Expression.Drawing" version="4.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xPe32Y24lNexnS3SWwsZh9GVd4s1MCFS7T1eTz5ZAaQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PrintBooth.exe" size="15760">
+      <assemblyIdentity name="PrintBooth" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Q8OK26EJVGemCzBhOVOIxdbpXCbyohtDZi7r+cier+U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PrintBooth.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JFET\rob" issuerKeyHash="74a5c23b76a3826887e678ab5f317864dde8c833" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>CId4uFUI1/uXRu8j7CjWYWAiBnJtp+I+HIXPwM9xxBg=</DigestValue></Reference></SignedInfo><SignatureValue>gXr8HRCQHDkfexlov0Q5n60mn7l/dHL1FNk33pbTk7BKSYdSEBJFEuT7K/odyPpy7xJnwe0YGonMPuzWBEavDB7FJyUsPXoELeqz5p0iAFTCni8Jd9rVtYVscQMrnyNbZWCyksky7hJGgx5n2BJTmjAWq44BcaL3ztHt3b6DpIg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>25c7YeJSYjl56l5Va8DsukziktgRUf65WC1URnN7mr/cmwBprvaezpVJpH2JpCzQ35K+M6naBRnGYWdD942WTMXJMnA7wZNl2siaEEcTLGurfXWz+SLo9ScXi2ONL747zGN4uuJYrn78+opMUZ6vNbEZncjJTzyU6ed4x85YbL0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="18c471cfc0cf851c3ee2a76d7206226061d628ec23ef4697fbd70855b8788708" Description="" Url=""><as:assemblyIdentity name="PrintBooth.exe" version="1.0.0.1" publicKeyToken="71958bda48337a3e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JFET\rob</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wxPb/UkgOsfIFU0qpHqsZv1AZ/pfJcU5t911iuPYT6M=</DigestValue></Reference></SignedInfo><SignatureValue>p/JAOjvGzEmFbUrskWbeJDcjq1EElAkkUPX0TG6orPl2f2vNErZsRuwdjKE/fQBzWCGm46GML5QSxAEoE/tTKg1HV7DpF2lPKg/mOGFI2ETZgsaUtcAWA76OsMz6i5Y5BYRmXeyiwIiJa1QMIuYryBzQIl8F9tyGyygV60mc34o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>25c7YeJSYjl56l5Va8DsukziktgRUf65WC1URnN7mr/cmwBprvaezpVJpH2JpCzQ35K+M6naBRnGYWdD942WTMXJMnA7wZNl2siaEEcTLGurfXWz+SLo9ScXi2ONL747zGN4uuJYrn78+opMUZ6vNbEZncjJTzyU6ed4x85YbL0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASKgAwIBAgIQJTeq11lH0JpIDUeKSvR38zANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDHhAASgBGAEUAVABcAHIAbwBiMB4XDTE1MDkwMjAyNDEzMFoXDTE2MDkwMTA4NDEzMFowGzEZMBcGA1UEAx4QAEoARgBFAFQAXAByAG8AYjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA25c7YeJSYjl56l5Va8DsukziktgRUf65WC1URnN7mr/cmwBprvaezpVJpH2JpCzQ35K+M6naBRnGYWdD942WTMXJMnA7wZNl2siaEEcTLGurfXWz+SLo9ScXi2ONL747zGN4uuJYrn78+opMUZ6vNbEZncjJTzyU6ed4x85YbL0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQA1hOjhEtHchlLfoLSKkcv2qOTqnOcUxkdw7iBKGTqF8ElI7jkUO9QSmuqWk8VRO0naCsl5KKNQlcLhxl+u9PxIavlC1/j8CiX9bNxmem8AV8rW2UnjOSLRZARRunn93RxW2+4/2ZWPOAEXaY4E988comBJ3PS3bleBnf/p27EauA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
